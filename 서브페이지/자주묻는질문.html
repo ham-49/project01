@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>온라인 민원창구</title>
+  <!-- 파비콘 -->
+  <link rel="icon" href="../image/logo-CI-active.svg">
+  <!-- css -->
+  <!-- reset -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <!-- 스와이퍼 aos -->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- aos css -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- header / sub menu -->
+  <!-- header -->
+  <header>
+    <div class="header_inner">
+      <!-- 로고  -->
+    <a href="../index.html" class="logo">
+      <img src="../image/logo01.png" alt="">
+    </a>
+    <div class="toputil_control">
+      <!-- 상단 영역 -->
+      <div class="toputil_control_top">
+        <!-- language -->
+        <div class="header_title language">
+          <button class="language_btn header_btn">language</button>
+          <ul class="language_list header_list">
+            <li> <a href="#none">한국어</a></li>
+            <li> <a href="#none">English</a></li>
+          </ul>
+        </div>
+        <!-- service -->
+        <div class="header_title service">
+          <button class="service_btn header_btn">관련 서비스</button>
+          <ul class="service_list header_list">
+            <li><a href="https://www.kipris.or.kr/khome/main.do" target="_blank">특허정보검색서비스</a></li>
+            <li><a href="https://plus.kipris.or.kr/portal/main.do" target="_blank">특허정보활용서비스</a></li>
+          </ul>
+          <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div>
+        </div>
+        <!-- relation_map -->
+        <div class="relation_map">
+          <button class="relation_map_btn" title="새창이동"><a href="#none">유관 사이트</a></button>
+        </div>
+      </div>
+      <!-- 하단 영역 -->
+      <div class="toputil_control_bottom">
+        <!-- 네비게이션 -->
+        <nav class="header_nav">
+          <ul class="header_nav_ul">
+            <li class="nav_item" data-target = "introduction"><a href="#none">KIPI</a></li>
+            <li class="nav_item" data-target = "management"><a href="#none">열린경영</a></li>
+            <li class="nav_item" data-target = "business"><a href="#none">주요사업</a></li>
+            <li class="nav_item" data-target = "news"><a href="#none">알림마당</a> <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+            <li class="nav_item" data-target = "notification"><a href="#none">정보공개</a></li>
+          </ul>
+        </nav>
+        <div class="btns">
+          <!-- 검색 -->
+          <div class="search">
+            <form>
+              <input type="text" placeholder="검색어 입력" title="검색어를 입력하세요." id="search">
+              <input type="submit" value="" title="검색하기">
+            </form>
+          </div>
+          <!-- 사이트맵 -->
+          <div class="site_map">
+            <a href="#none">
+              <img src="../image/sitemap.svg" alt="" title="새창이동">
+            </a>
+            <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- sub menu -->
+  <div class="sub_wrap_bg"></div>
+    <div class="sub_wrap">
+    <div class="sub_nav" id="introduction" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>KIPI</h3>
+          <p>아이디어, 미래 산업을 잇는 <br>가장 스마트한 연결 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">기관소개</a></h4>
+          <ul>
+            <li><a href="#none">인사말</a></li>
+            <li><a href="#none">미션 및 비전</a></li>
+            <li><a href="#none">CI</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">조직안내</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">KIPI 홍보</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">찾아오시는 길</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="management" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>열린경영</h3>
+          <p>투명성과 소통으로 함께 성장하는<br> 열린 경영을 실천하는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">경영공시</a></h4>
+          <ul>
+            <li><a href="#none">부패행위 신고</a></li>
+            <li><a href="#none">윤리·인권경영 정보공개</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">윤리경영</a></h4>
+          <ul>
+            <li><a href="#none">윤리헌장</a></li>
+            <li><a href="#none">임직원 행동강령</a></li>
+            <li><a href="#none">인권경영 헌장</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사회공헌</a></h4>
+          <ul>
+            <li><a href="#none">소개</a></li>
+            <li><a href="#none">활동모습</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu"></div>
+      </div>
+    </div>
+    <div class="sub_nav" id="business" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>주요사업</h3>
+          <p>특허정보를 넘어 미래를<br> 여는 사업을 만들어가는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">지식정보 활용 촉진</a></h4>
+          <ul>
+            <li><a href="#none"> 검색서비스 제공</a></li>
+            <li><a href="#none">데이터 베이스 구축</a></li>
+            <li><a href="#none">번역서비스 제공</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">지식재산정보산업 지원</a></h4>
+          <ul>
+            <li><a href="#none"> 활용서비스 제공</a></li>
+            <li><a href="#none">IP정보 시스템 통합 관리</a></li>
+            <li><a href="#none">지식재산 정보화 R&D</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">국제특허 정보 박람회</a></h4>
+          <ul>
+            <li><a href="#none"> 지식재산 정보화 국제협력</a></li>
+            <li><a href="#none">국제특허 정보 박람회</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">정보화 및 업무지원</a></h4>
+          <ul>
+            <li><a href="#none"> 특허넷 시스템 운영</a></li>
+            <li><a href="#none">특허고객 상담서비스 제공</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="news" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>알림마당</h3>
+          <p>소식과 정보를 투명하게,<br> 소통은 따뜻하게 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="채용정보.html" target="_blank">채용정보</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+          
+        </div>
+        <div class="sub_menu">
+          <h4><a href="입찰정보.html" target="_blank">입찰정보</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="공지사항.html" target="_blank">공지사항</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">민원안내</a></h4>
+          <ul>
+            <li><a href="#none">자주 묻는 질문</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+            <li><a href="민원창구.html" target="_blank">온라인 민원 창구</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="notification" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>정보공개</h3>
+          <p>국민과 함께하는 열린 정보,<br>투명한 경영을 실천하는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">정보공개청구</a></h4>
+          <ul>
+            <li><a href="#none"> 이용안내</a></li>
+            <li><a href="#none">처리절차</a></li>
+            <li><a href="#none">비공개 대상정보 세부기준</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사전정보공표</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사업실명제</a></h4>
+          <ul>
+            <li><a href="#none"> 사업실명제 안내</a></li>
+            <li><a href="#none">사업실명제 목록</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">공공데이터개방</a></h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  <main>
+    <!-- title -->
+    <section class="title_wrap">
+      <div class="bg">
+        <div class="inner">
+        <div class="text_wrap">
+          <h2>KIPI 알림마당</h2>
+          <p>NOTIFICATION FIELD</p>
+        </div>
+        <div class="bottom">
+          <div class="home">
+            <a href="../index.html" title="메인페이지 이동">
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </div>
+          <div class="bottom_text">
+            <span>알림마당</span>
+            <span>민원안내</span>
+            <span>지주 묻는 질문</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_wrap">
+      <div class="inner">
+        <div class="menu">
+          <ul class="menu_title">
+            <li>
+              <a href="채용정보.html">채용정보</a>
+            </li>
+            <li>
+              <a href="입찰정보.html">입찰정보</a>
+            </li>
+            <li>
+              <a href="공지사항.html">공지사항</a>
+            </li>
+            <li>
+              <a href="#none"  class="active">자주묻는질문</a>
+            </li>
+            <li>
+              <a href="민원창구.html">온라인 민원창구</a>
+            </li>
+          </ul>
+        </div>
+        <div class="QnA_wrap content">
+          <div class="content_title">자주 묻는 질문</div>
+          <div class="QnA_menu">
+          <ul>
+            <li><a href="#tab01">서비스</a></li>
+            <li><a href="#tab02">절차 및 이용</a></li>
+            <li><a href="#tab03">기술 지원</a></li>
+            <li><a href="#tab04">일반 문의</a></li>
+          </ul>
+          </div>
+          <div class="search_box">
+          <input type="text" title="단어를 입력하세요." placeholder="검색어 입력">
+          <input type="submit" value="검색">
+          </div>
+          <div class="QnA_content">
+          <div id="tab01" class="tab">
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>특허정보원에서는 어떤 서비스를 제공하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>특허·디자인·상표 등의 지식재산 정보 제공, 검색, 통계 서비스, 지재권 출원/등록 안내, 온라인 교육 및 세미나 운영 등 다양한 서비스를 제공합니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>홈페이지에서 통계 데이터를 확인할 수 있나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>네. '통계 정보' 메뉴에서 연도별, 산업별 출원·등록 현황을 쉽게 조회하실 수 있습니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>특허정보원은 개인 출원인도 지원하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>예. 기업뿐 아니라 개인 출원인을 위한 정보 제공, 검색 지원 및 가이드도 마련되어 있습니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>해외 특허 정보도 조회할 수 있나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>일부 해외 특허는 연계된 글로벌 특허 정보시스템을 통해 확인하실 수 있으며, KIPRISPlus와 연동된 API도 제공됩니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>교육 프로그램은 누구나 신청 가능한가요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span> 예. 누구나 신청 가능하며, 일부 프로그램은 사전 등록 및 교육비가 필요할 수 있습니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>홈페이지에서 최신 정책 정보도 확인할 수 있나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>특허청 및 유관기관의 공고, 제도 변경 사항 등을 공지사항을 통해 제공하고 있습니다.</p>
+              </div>
+            </div>
+          </div>
+          <div id="tab02" class="tab">
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>특허 출원 절차는 어떻게 되나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>특허명세서 작성 → 출원서 제출 → 심사청구 → 등록결정 → 등록료 납부 순서로 진행됩니다. 상세 가이드는 출원 안내 메뉴에서 확인하세요.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>특허 검색은 어떻게 하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>홈페이지 상단 ‘특허검색’ 메뉴에서 키워드, 등록번호, 출원인 등의 조건으로 검색 가능합니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>출원 후 심사 결과는 어디서 확인할 수 있나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>‘출원현황 조회’ 메뉴에서 로그인 후 심사상태 및 등록 결과를 확인할 수 있습니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>상표 출원은 어떻게 하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>유사 상표 여부 검색 → 출원서 작성 → 전자출원 → 심사 및 공고 → 등록 결정으로 진행됩니다. 절차 안내는 상표 메뉴에서 제공됩니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>자료 다운로드는 어디서 가능한가요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>검색 결과 상세보기에서 PDF 또는 XML 파일 형식으로 특허공보를 다운로드하실 수 있습니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>지식재산권과 관련된 절차를 자세히 배우려면 어떻게 하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>홈페이지 내 ‘온라인 교육’ 또는 ‘자료실’에서 매뉴얼과 동영상 자료를 제공하고 있습니다.</p>
+              </div>
+            </div>
+          </div>
+          <div id="tab03" class="tab">
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>리뉴얼된 홈페이지에서 이전 정보는 유지되나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span> 대부분 유지되며, 일부 메뉴는 구조가 변경되었으니 리뉴얼 가이드 또는 공지사항을 참고해 주세요.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>모바일에서도 서비스를 이용할 수 있나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>네. 홈페이지는 반응형으로 제작되어 PC와 모바일 모두 최적화되어 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>데이터 API는 어떻게 신청하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>KIPRISPlus 연동 API는 별도 신청 절차가 있으며, 사용 승인 후 제공됩니다. 개발자센터 메뉴에서 확인하세요.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>검색이 너무 느릴 때는 어떻게 하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>일시적인 서버 부하일 수 있으며, 캐시 삭제 또는 다른 브라우저 사용을 권장합니다. 지속 시 고객센터로 문의 바랍니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>보안 인증서 오류가 발생합니다.</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>브라우저 보안 설정 또는 날짜 설정 문제일 수 있습니다. 크롬, 엣지 등의 최신 브라우저 사용을 권장합니다.</p>
+              </div>
+            </div>
+          </div>
+          <div id="tab04" class="tab">
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>특허정보원은 공공기관인가요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>네. 한국특허정보원은 특허청 산하의 준정부기관으로, 공공데이터와 지식재산 정보 서비스를 제공합니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>채용 관련 정보는 어디서 확인하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>홈페이지 하단 ‘채용정보’ 메뉴 또는 공지사항에서 채용 공고 및 일정, 서류 안내를 확인하실 수 있습니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>고객센터 운영시간은 어떻게 되나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>평일 오전 9시부터 오후 6시까지 운영되며, 점심시간은 12시~1시입니다. 주말 및 공휴일은 휴무입니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>기업회원 전용 서비스가 따로 있나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>일부 기업 맞춤형 분석서비스는 별도 계약 후 제공됩니다. 자세한 사항은 문의를 통해 안내받으실 수 있습니다.</p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>이용약관과 개인정보처리방침은 어디서 확인하나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>홈페이지 하단에서 이용약관 및 개인정보처리방침을 열람하실 수 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="content_item">
+              <div class="question">
+                <h4><span class="q">Q</span>사이트에 없는 정보를 요청할 수 있나요?</h4>
+              </div>
+              <div class="answer">
+                <p><span class="a">A</span>고객 의견은 ‘문의하기’ 또는 ‘제안게시판’을 통해 접수되며, 내부 검토 후 서비스에 반영될 수 있습니다.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="managers">
+            <div class="manager">
+          <span>담당부서</span>
+          <span>경영기획실</span>
+            </div>
+            <div class="manager">
+          <span>담당자</span>
+          <span>황의원</span>
+            </div>
+            <div class="manager">
+          <span>연락처</span>
+          <span>02-6915-1462</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+<!-- footer -->
+<footer>
+  <div class="footer_inner">
+    <div class="text_wrap">
+      <div class="a_wrap">
+        <a href="#none" title="새창이동">개인정보 처리방침</a>
+        <a href="#none" title="새창이동">무단 E-mail 수집거부</a>
+      </div>
+      <p><span>[대전] (35220) 대전광역시 서구 청사로 136, 10층 (월평동, 대전무역회관)</span><span>Tel.042-479-5601 Fax.042-479-5602</span></p>
+      <p><span>[서울] (06133) 서울특별시 강남구 테헤란로 131, 7층 (역삼동, 한국지식재산센터)</span><span>Tel.02-6915-1400 Fax.02-6915-1409</span>
+      </p>
+      <p>COPYRIGHT© KIPI ALL RIGHTS RESERVED</p>
+    </div>
+    <div class="img_wrap">
+      <div class="img_top">
+        <img src="../../image/footer_link.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" title="국가 공인 인증기관 : 웹와치">
+      </div>
+      <div class="img_bottom">
+        <div class="sns">
+          <a href="https://youtube.com/@dynamickipi?si=h1M3UxkaYWBiQHqz" target="_blank" title="새창이동">
+            <img src="../../image/sns01.png" alt="youtube"> <span>유튜브</span>
+          </a>
+        </div>
+        <div class="sns">
+          <a href="http://www.facebook.com/dynamickipi" target="_blank" title="새창이동">
+            <img src="../../image/sns02.png" alt="Facebook"> <span>페이스북</span>
+          </a>
+        </div>
+        <div class="sns">
+          <a href="https://x.com/dynamic_kipi" target="_blank" title="새창이동">
+            <img src="../../image/sns03.png" alt="X"> <span>엑스</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Link Swiper's js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- js -->
+  <script src="js/custom_qna.js"></script>
+</body>
+</html>

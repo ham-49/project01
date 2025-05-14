@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>온라인 민원창구</title>
+  <!-- 파비콘 -->
+  <link rel="icon" href="../image/logo-CI-active.svg">
+  <!-- css -->
+  <!-- reset -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <!-- 스와이퍼 aos -->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- aos css -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- style -->
+  <link rel="stylesheet" href="css/style민원.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- header / sub menu -->
+  <!-- header -->
+  <header>
+    <div class="header_inner">
+      <!-- 로고  -->
+    <a href="../index.html" class="logo">
+      <img src="../image/logo01.png" alt="">
+    </a>
+    <div class="toputil_control">
+      <!-- 상단 영역 -->
+      <div class="toputil_control_top">
+        <!-- language -->
+        <div class="header_title language">
+          <button class="language_btn header_btn">language</button>
+          <ul class="language_list header_list">
+            <li> <a href="#none">한국어</a></li>
+            <li> <a href="#none">English</a></li>
+          </ul>
+        </div>
+        <!-- service -->
+        <div class="header_title service">
+          <button class="service_btn header_btn">관련 서비스</button>
+          <ul class="service_list header_list">
+            <li><a href="https://www.kipris.or.kr/khome/main.do" target="_blank">특허정보검색서비스</a></li>
+            <li><a href="https://plus.kipris.or.kr/portal/main.do" target="_blank">특허정보활용서비스</a></li>
+          </ul>
+          <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div>
+        </div>
+        <!-- relation_map -->
+        <div class="relation_map">
+          <button class="relation_map_btn" title="새창이동"><a href="#none">유관 사이트</a></button>
+        </div>
+      </div>
+      <!-- 하단 영역 -->
+      <div class="toputil_control_bottom">
+        <!-- 네비게이션 -->
+        <nav class="header_nav">
+          <ul class="header_nav_ul">
+            <li class="nav_item" data-target = "introduction"><a href="#none">KIPI</a></li>
+            <li class="nav_item" data-target = "management"><a href="#none">열린경영</a></li>
+            <li class="nav_item" data-target = "business"><a href="#none">주요사업</a></li>
+            <li class="nav_item" data-target = "news"><a href="#none">알림마당</a> <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+            <li class="nav_item" data-target = "notification"><a href="#none">정보공개</a></li>
+          </ul>
+        </nav>
+        <div class="btns">
+          <!-- 검색 -->
+          <div class="search">
+            <form>
+              <input type="text" placeholder="검색어 입력" title="검색어를 입력하세요." id="search">
+              <input type="submit" value="" title="검색하기">
+            </form>
+          </div>
+          <!-- 사이트맵 -->
+          <div class="site_map">
+            <a href="#none">
+              <img src="../image/sitemap.svg" alt="" title="새창이동">
+            </a>
+            <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- sub menu -->
+  <div class="sub_wrap_bg"></div>
+    <div class="sub_wrap">
+    <div class="sub_nav" id="introduction" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>KIPI</h3>
+          <p>아이디어, 미래 산업을 잇는 <br>가장 스마트한 연결 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">기관소개</a></h4>
+          <ul>
+            <li><a href="#none">인사말</a></li>
+            <li><a href="#none">미션 및 비전</a></li>
+            <li><a href="#none">CI</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">조직안내</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">KIPI 홍보</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">찾아오시는 길</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="management" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>열린경영</h3>
+          <p>투명성과 소통으로 함께 성장하는<br> 열린 경영을 실천하는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">경영공시</a></h4>
+          <ul>
+            <li><a href="#none">부패행위 신고</a></li>
+            <li><a href="#none">윤리·인권경영 정보공개</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">윤리경영</a></h4>
+          <ul>
+            <li><a href="#none">윤리헌장</a></li>
+            <li><a href="#none">임직원 행동강령</a></li>
+            <li><a href="#none">인권경영 헌장</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사회공헌</a></h4>
+          <ul>
+            <li><a href="#none">소개</a></li>
+            <li><a href="#none">활동모습</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu"></div>
+      </div>
+    </div>
+    <div class="sub_nav" id="business" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>주요사업</h3>
+          <p>특허정보를 넘어 미래를<br> 여는 사업을 만들어가는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">지식정보 활용 촉진</a></h4>
+          <ul>
+            <li><a href="#none"> 검색서비스 제공</a></li>
+            <li><a href="#none">데이터 베이스 구축</a></li>
+            <li><a href="#none">번역서비스 제공</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">지식재산정보산업 지원</a></h4>
+          <ul>
+            <li><a href="#none"> 활용서비스 제공</a></li>
+            <li><a href="#none">IP정보 시스템 통합 관리</a></li>
+            <li><a href="#none">지식재산 정보화 R&D</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">국제특허 정보 박람회</a></h4>
+          <ul>
+            <li><a href="#none"> 지식재산 정보화 국제협력</a></li>
+            <li><a href="#none">국제특허 정보 박람회</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">정보화 및 업무지원</a></h4>
+          <ul>
+            <li><a href="#none"> 특허넷 시스템 운영</a></li>
+            <li><a href="#none">특허고객 상담서비스 제공</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="news" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>알림마당</h3>
+          <p>소식과 정보를 투명하게,<br> 소통은 따뜻하게 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="채용정보.html" target="_blank">채용정보</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+          
+        </div>
+        <div class="sub_menu">
+          <h4><a href="입찰정보.html" target="_blank">입찰정보</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="공지사항.html" target="_blank">공지사항</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">민원안내</a></h4>
+          <ul>
+            <li><a href="자주묻는질문.html" target="_blank">자주 묻는 질문</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+            <li><a href="#none">온라인 민원 창구</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="notification" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>정보공개</h3>
+          <p>국민과 함께하는 열린 정보,<br>투명한 경영을 실천하는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">정보공개청구</a></h4>
+          <ul>
+            <li><a href="#none"> 이용안내</a></li>
+            <li><a href="#none">처리절차</a></li>
+            <li><a href="#none">비공개 대상정보 세부기준</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사전정보공표</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사업실명제</a></h4>
+          <ul>
+            <li><a href="#none"> 사업실명제 안내</a></li>
+            <li><a href="#none">사업실명제 목록</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">공공데이터개방</a></h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  <main>
+    <!-- title -->
+    <section class="title_wrap">
+      <div class="bg">
+        <div class="inner">
+        <div class="text_wrap">
+          <h2>KIPI 알림마당</h2>
+          <p>NOTIFICATION FIELD</p>
+        </div>
+        <div class="bottom">
+          <div class="home">
+            <a href="../index.html" title="메인페이지 이동">
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </div>
+          <div class="bottom_text">
+            <span>알림마당</span>
+            <span>민원안내</span>
+            <span>온라인 민원 창구</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- content -->
+    <section class="content_wrap">
+      <div class="inner">
+        <div class="menu">
+          <ul class="menu_title">
+            <li>
+              <a href="채용정보.html">채용정보</a>
+            </li>
+            <li>
+              <a href="입찰정보.html">입찰정보</a>
+            </li>
+            <li>
+              <a href="공지사항.html">공지사항</a>
+            </li>
+            <li>
+              <a href="자주묻는질문.html">자주묻는질문</a>
+            </li>
+            <li>
+              <a href="#none"  class="active">온라인 민원창구</a>
+            </li>
+          </ul>
+        </div>
+        <div class="content">
+          <div class="content_title">민원창구</div>
+          <div class="content_table">
+            <table id="tables">
+              <thead>
+                <tr>
+                  <th>제목</th>
+                  <th>작성자</th>
+                  <th>작성일</th>
+                  <th>상태</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>특허정보원 관련 회사 문의</td>
+                  <td>김*수</td>
+                  <td>2025-05-09</td>
+                  <td><img src="../image/sub_민원상태01.png" alt="처리전"></td>
+                </tr>
+                <tr>
+                  <td>지식재산권 무료 교육 접수 건</td>
+                  <td>김*진</td>
+                  <td>2025-04-09</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>지식 재산권 교육 접수 건</td>
+                  <td>김*진</td>
+                  <td>2025-05-09</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허 교육 문의</td>
+                  <td>강*나</td>
+                  <td>2025-05-01</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허 정보 관련 사이트 요청 건</td>
+                  <td>윤*</td>
+                  <td>2025-04-29</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허 등록 기준 관련 질문</td>
+                  <td>강*민</td>
+                  <td>2025-04-29</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>중소기업 특허 사업 관련 문의드립니다.</td>
+                  <td>권*진</td>
+                  <td>2025-04-20</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허정보원 관련 회사 문의</td>
+                  <td>김*진</td>
+                  <td>2025-05-09</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>개인 특허 관련 질문</td>
+                  <td>최*준</td>
+                  <td>2025-04-01</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허정보원 추천 기업 문의</td>
+                  <td>권*진</td>
+                  <td>2025-04-01</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>지원 사업 신청 가능 확인 건</td>
+                  <td>최*준</td>
+                  <td>2025-03-10</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>대회 참가 기준 문의 건</td>
+                  <td>강*호</td>
+                  <td>2025-03-10</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허 등록 관련 절차 문의드립니다.</td>
+                  <td>이*연</td>
+                  <td>2025-03-08</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허 관련 문의</td>
+                  <td>유*정</td>
+                  <td>2025-03-06</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허 교육 참가 건</td>
+                  <td>변*호</td>
+                  <td>2025-02-02</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허로 api readPrirClmDeadlineInfo</td>
+                  <td>최*호</td>
+                  <td>2025-01-25</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+                <tr>
+                  <td>특허로 api 오류</td>
+                  <td>최*호</td>
+                  <td>2025-01-20</td>
+                  <td><img src="../image/sub_민원상태02.png" alt="처리완료"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pagination">
+            <i class="fa-solid fa-angles-left"></i>
+            <i class="fa-solid fa-angle-left"></i>
+            <ol id="numbers">
+            </ol>
+            <i class="fa-solid fa-angle-right"></i>
+            <i class="fa-solid fa-angles-right"></i>
+          </div>
+          <div class="managers">
+            <div class="manager">
+              <span>담당부서</span>
+              <span>경영기획실</span>
+            </div>
+            <div class="manager">
+              <span>담당자</span>
+              <span>황의원</span>
+            </div>
+            <div class="manager">
+              <span>연락처</span>
+              <span>02-6915-1462</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- footer -->
+<footer>
+  <div class="footer_inner">
+    <div class="text_wrap">
+      <div class="a_wrap">
+        <a href="#none" title="새창이동">개인정보 처리방침</a>
+        <a href="#none" title="새창이동">무단 E-mail 수집거부</a>
+      </div>
+      <p><span>[대전] (35220) 대전광역시 서구 청사로 136, 10층 (월평동, 대전무역회관)</span><span>Tel.042-479-5601 Fax.042-479-5602</span></p>
+      <p><span>[서울] (06133) 서울특별시 강남구 테헤란로 131, 7층 (역삼동, 한국지식재산센터)</span><span>Tel.02-6915-1400 Fax.02-6915-1409</span>
+      </p>
+      <p>COPYRIGHT© KIPI ALL RIGHTS RESERVED</p>
+    </div>
+    <div class="img_wrap">
+      <div class="img_top">
+        <img src="../../image/footer_link.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" title="국가 공인 인증기관 : 웹와치">
+      </div>
+      <div class="img_bottom">
+        <div class="sns">
+          <a href="https://youtube.com/@dynamickipi?si=h1M3UxkaYWBiQHqz" target="_blank" title="새창이동">
+            <img src="../../image/sns01.png" alt="youtube"> <span>유튜브</span>
+          </a>
+        </div>
+        <div class="sns">
+          <a href="http://www.facebook.com/dynamickipi" target="_blank" title="새창이동">
+            <img src="../../image/sns02.png" alt="Facebook"> <span>페이스북</span>
+          </a>
+        </div>
+        <div class="sns">
+          <a href="https://x.com/dynamic_kipi" target="_blank" title="새창이동">
+            <img src="../../image/sns03.png" alt="X"> <span>엑스</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Link Swiper's js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- js -->
+  <script src="js/custom.js"></script>
+</body>
+</html>

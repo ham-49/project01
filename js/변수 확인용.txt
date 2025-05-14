@@ -1,0 +1,34 @@
+1. main-visual
+  swiper01
+  nextEl: ".visual-next",
+  prevEl: ".visual-prev",
+  el: ".pagination-visual",
+
+2. movement
+  swiper02
+  nextEl: ".movement-next",
+  prevEl: ".movement-prev",
+  el: ".pagination-movement",
+
+3. promotion
+  swiper03
+  nextEl: ".promotion-next",
+  prevEl: ".promotion-prev",
+
+4. information
+  titleLink
+  contents
+  aTarget
+  aOrgTarget
+  i / a / x z
+  swiper04
+  nextEl: ".board-next",
+  prevEl: ".board-prev",
+  el: ".pagination-board"
+
+5. business
+  textBoxs
+  list
+
+6. relation
+  swiper05

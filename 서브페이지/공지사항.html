@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>공지사항</title>
+  <!-- 파비콘 -->
+  <link rel="icon" href="../image/logo-CI-active.svg">
+  <!-- css -->
+  <!-- reset -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <!-- 스와이퍼 aos -->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- aos css -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- header / sub menu -->
+  <!-- header -->
+  <header>
+    <div class="header_inner">
+      <!-- 로고  -->
+    <a href="../index.html" class="logo">
+      <img src="../image/logo01.png" alt="">
+    </a>
+    <div class="toputil_control">
+      <!-- 상단 영역 -->
+      <div class="toputil_control_top">
+        <!-- language -->
+        <div class="header_title language">
+          <button class="language_btn header_btn">language</button>
+          <ul class="language_list header_list">
+            <li> <a href="#none">한국어</a></li>
+            <li> <a href="#none">English</a></li>
+          </ul>
+        </div>
+        <!-- service -->
+        <div class="header_title service">
+          <button class="service_btn header_btn">관련 서비스</button>
+          <ul class="service_list header_list">
+            <li><a href="https://www.kipris.or.kr/khome/main.do" target="_blank">특허정보검색서비스</a></li>
+            <li><a href="https://plus.kipris.or.kr/portal/main.do" target="_blank">특허정보활용서비스</a></li>
+          </ul>
+          <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div>
+        </div>
+        <!-- relation_map -->
+        <div class="relation_map">
+          <button class="relation_map_btn" title="새창이동"><a href="#none">유관 사이트</a></button>
+        </div>
+      </div>
+      <!-- 하단 영역 -->
+      <div class="toputil_control_bottom">
+        <!-- 네비게이션 -->
+        <nav class="header_nav">
+          <ul class="header_nav_ul">
+            <li class="nav_item" data-target = "introduction"><a href="#none">KIPI</a></li>
+            <li class="nav_item" data-target = "management"><a href="#none">열린경영</a></li>
+            <li class="nav_item" data-target = "business"><a href="#none">주요사업</a></li>
+            <li class="nav_item" data-target = "news"><a href="#none">알림마당</a> <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+            <li class="nav_item" data-target = "notification"><a href="#none">정보공개</a></li>
+          </ul>
+        </nav>
+        <div class="btns">
+          <!-- 검색 -->
+          <div class="search">
+            <form>
+              <input type="text" placeholder="검색어 입력" title="검색어를 입력하세요." id="search">
+              <input type="submit" value="" title="검색하기">
+            </form>
+          </div>
+          <!-- 사이트맵 -->
+          <div class="site_map">
+            <a href="#none">
+              <img src="../image/sitemap.svg" alt="" title="새창이동">
+            </a>
+            <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- sub menu -->
+  <div class="sub_wrap_bg"></div>
+    <div class="sub_wrap">
+    <div class="sub_nav" id="introduction" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>KIPI</h3>
+          <p>아이디어, 미래 산업을 잇는 <br>가장 스마트한 연결 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">기관소개</a></h4>
+          <ul>
+            <li><a href="#none">인사말</a></li>
+            <li><a href="#none">미션 및 비전</a></li>
+            <li><a href="#none">CI</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">조직안내</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">KIPI 홍보</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">찾아오시는 길</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="management" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>열린경영</h3>
+          <p>투명성과 소통으로 함께 성장하는<br> 열린 경영을 실천하는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">경영공시</a></h4>
+          <ul>
+            <li><a href="#none">부패행위 신고</a></li>
+            <li><a href="#none">윤리·인권경영 정보공개</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">윤리경영</a></h4>
+          <ul>
+            <li><a href="#none">윤리헌장</a></li>
+            <li><a href="#none">임직원 행동강령</a></li>
+            <li><a href="#none">인권경영 헌장</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사회공헌</a></h4>
+          <ul>
+            <li><a href="#none">소개</a></li>
+            <li><a href="#none">활동모습</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu"></div>
+      </div>
+    </div>
+    <div class="sub_nav" id="business" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>주요사업</h3>
+          <p>특허정보를 넘어 미래를<br> 여는 사업을 만들어가는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">지식정보 활용 촉진</a></h4>
+          <ul>
+            <li><a href="#none"> 검색서비스 제공</a></li>
+            <li><a href="#none">데이터 베이스 구축</a></li>
+            <li><a href="#none">번역서비스 제공</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">지식재산정보산업 지원</a></h4>
+          <ul>
+            <li><a href="#none"> 활용서비스 제공</a></li>
+            <li><a href="#none">IP정보 시스템 통합 관리</a></li>
+            <li><a href="#none">지식재산 정보화 R&D</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">국제특허 정보 박람회</a></h4>
+          <ul>
+            <li><a href="#none"> 지식재산 정보화 국제협력</a></li>
+            <li><a href="#none">국제특허 정보 박람회</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">정보화 및 업무지원</a></h4>
+          <ul>
+            <li><a href="#none"> 특허넷 시스템 운영</a></li>
+            <li><a href="#none">특허고객 상담서비스 제공</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="news" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>알림마당</h3>
+          <p>소식과 정보를 투명하게,<br> 소통은 따뜻하게 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="채용정보.html" target="_blank">채용정보</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+          
+        </div>
+        <div class="sub_menu">
+          <h4><a href="입찰정보.html" target="_blank">입찰정보</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">공지사항</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">민원안내</a></h4>
+          <ul>
+            <li><a href="자주묻는질문.html" target="_blank">자주 묻는 질문</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+            <li><a href="민원창구.html" target="_blank">온라인 민원 창구</a><div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+          </div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sub_nav" id="notification" >
+      <div class="sub_content">
+        <div class="sub_title">
+          <h3>정보공개</h3>
+          <p>국민과 함께하는 열린 정보,<br>투명한 경영을 실천하는 KIPI</p>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">정보공개청구</a></h4>
+          <ul>
+            <li><a href="#none"> 이용안내</a></li>
+            <li><a href="#none">처리절차</a></li>
+            <li><a href="#none">비공개 대상정보 세부기준</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사전정보공표</a></h4>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">사업실명제</a></h4>
+          <ul>
+            <li><a href="#none"> 사업실명제 안내</a></li>
+            <li><a href="#none">사업실명제 목록</a></li>
+          </ul>
+        </div>
+        <div class="sub_menu">
+          <h4><a href="#none">공공데이터개방</a></h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  <main>
+    <!-- title -->
+    <section class="title_wrap">
+      <div class="bg">
+        <div class="inner">
+        <div class="text_wrap">
+          <h2>KIPI 알림마당</h2>
+          <p>NOTIFICATION FIELD</p>
+        </div>
+        <div class="bottom">
+          <div class="home">
+            <a href="../index.html" title="메인페이지 이동">
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </div>
+          <div class="bottom_text">
+            <span>알림마당</span>
+            <span>공지사항</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- content -->
+    <section class="content_wrap">
+      <div class="inner">
+        <div class="menu">
+          <ul class="menu_title">
+            <li>
+              <a href="채용정보.html">채용정보</a>
+            </li>
+            <li>
+              <a href="입찰정보.html">입찰정보</a>
+            </li>
+            <li>
+              <a href="#none"  class="active">공지사항</a>
+            </li>
+            <li>
+              <a href="자주묻는질문.html">자주묻는질문</a>
+            </li>
+            <li>
+              <a href="민원창구.html">온라인 민원창구</a>
+            </li>
+          </ul>
+        </div>
+        <div class="content">
+          <div class="content_title">공지사항</div>
+          <div class="content_table">
+            <table id="tables">
+              <thead>
+                <tr>
+                  <th>번호</th>
+                  <th>제목</th>
+                  <th>작성자</th>
+                  <th>작성일</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>286</td>
+                  <td>[한국지식재산보호원] 2025년 특허분쟁 대응전략 지원사업 3차 공고</td>
+                  <td>관리자</td>
+                  <td>2025-05-07</td>
+              </tr>
+              <tr>
+                  <td>285</td>
+                  <td>2025년 글로벌 엑셀러레이팅 지원사업 모집 공고</td>
+                  <td>관리자</td>
+                  <td>2025-04-24</td>
+              </tr>
+              <tr>
+                  <td>284</td>
+                  <td>[국민권익위원회] 2025년「이해충돌 한마디 공모전」안내</td>
+                  <td>관리자</td>
+                  <td>2025-04-18</td>
+              </tr>
+              <tr>
+                  <td>283</td>
+                  <td>[한국특허기술진흥원] (재)한국특허기술진흥원 상임이사(특허사업본부장 및 국제사업본부장) 공모</td>
+                  <td>관리자</td>
+                  <td>2025-04-15</td>
+              </tr>
+              <tr>
+                  <td>282</td>
+                  <td>보안 업데이트로 인한 서비스 중지 공지(4. 4. 18:00 ~ 20:00 예정)</td>
+                  <td>관리자</td>
+                  <td>2025-04-03</td>
+              </tr>
+              <tr>
+                  <td>281</td>
+                  <td>[한국지식재산보호원] 2025년 특허분쟁 대응전략 지원사업 2차 공고</td>
+                  <td>관리자</td>
+                  <td>2025-04-03</td>
+              </tr>
+              <tr>
+                  <td>280</td>
+                  <td>2025 지식재산 데이터 활용 창업 경진대회 모집 공고</td>
+                  <td>관리자</td>
+                  <td>2025-03-24</td>
+              </tr>
+              <tr>
+                  <td>279</td>
+                  <td>[한국지식재산보호원] 2025년 특허분쟁 대응전략 지원사업 1차 공고</td>
+                  <td>관리자</td>
+                  <td>2025-03-10</td>
+              </tr>
+              <tr>
+                  <td>278</td>
+                  <td>[한국지식재산보호원] 2025년 특허·K-브랜드분쟁 대응전략 지원사업 외부 자문위원 모집</td>
+                  <td>관리자</td>
+                  <td>2025-03-06</td>
+              </tr>
+              <tr>
+                  <td>277</td>
+                  <td>[기획재정부] 제4기 알리오 모니터링단 모집 안내</td>
+                  <td>관리자</td>
+                  <td>2025-02-20</td>
+              </tr>
+              <tr>
+                  <td>276</td>
+                  <td>[특허청] 2025년 제17기 지식재산전략 최고위과정(AIP) 모집</td>
+                  <td>관리자</td>
+                  <td>2025-02-20</td>
+              </tr>
+              <tr>
+                  <td>275</td>
+                  <td>[한국데이터산업진흥원] 2025년 마이데이터 종합기반 조성사업 공모 공고</td>
+                  <td>관리자</td>
+                  <td>2025-02-19</td>
+              </tr>
+              <tr>
+                  <td>274</td>
+                  <td>2025년 지식재산서비스 성장지원사업(BM·시범서비스 개발단계) 수행기관 모집</td>
+                  <td>관리자</td>
+                  <td>2025-02-17</td>
+              </tr>
+              <tr>
+                <td>273</td>
+                <td>[한국지식재산보호원] 2025년 지식재산 창업 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2025-02-05</td>
+              </tr>
+              <tr>
+                <td>272</td>
+                <td>[한국지식재산보호원] 2025년도 K-브랜드분쟁 대응전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2025-02-01</td>
+              </tr>
+              <tr>
+                <td>271</td>
+                <td>[한국지식재산보호원] 2025년도 특허분쟁 대응전략 지원사업 3차 공고</td>
+                <td>관리자</td>
+                <td>2025-01-25</td>
+              </tr>
+              <tr>
+                <td>270</td>
+                <td>[한국지식재산보호원] 2025년 글로벌 지식재산 보호 프로젝트 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2025-01-20</td>
+              </tr>
+              <tr>
+                <td>269</td>
+                <td>[특허청] 2025년 특허 관련 정책 안내</td>
+                <td>관리자</td>
+                <td>2025-01-15</td>
+              </tr>
+              <tr>
+                <td>268</td>
+                <td>[한국지식재산보호원] 2025년 특허 전략 수립 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2025-01-10</td>
+              </tr>
+              <tr>
+                <td>267</td>
+                <td>[한국특허기술진흥원] 특허분쟁 대응전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2025-01-05</td>
+              </tr>
+              <tr>
+                <td>266</td>
+                <td>[한국특허기술진흥원] 기술혁신 관련 프로젝트 공고</td>
+                <td>관리자</td>
+                <td>2025-01-03</td>
+              </tr>
+              <tr>
+                <td>265</td>
+                <td>[한국지식재산보호원] 특허 창업 지원 공고</td>
+                <td>관리자</td>
+                <td>2024-12-20</td>
+              </tr>
+              <tr>
+                <td>264</td>
+                <td>[한국지식재산보호원] K-브랜드분쟁 대응전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-12-18</td>
+              </tr>
+              <tr>
+                <td>263</td>
+                <td>[한국지식재산보호원] 특허기술 사업화 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-12-15</td>
+              </tr>
+              <tr>
+                <td>262</td>
+                <td>[한국특허기술진흥원] 특허 보호 전략 수립 공고</td>
+                <td>관리자</td>
+                <td>2024-12-10</td>
+              </tr>
+              <tr>
+                <td>261</td>
+                <td>[한국지식재산보호원] 특허 정보 분석 지원 공고</td>
+                <td>관리자</td>
+                <td>2024-12-05</td>
+              </tr>
+              <tr>
+                <td>260</td>
+                <td>[한국특허기술진흥원] 2024년도 특허 관련 기술 지원 공고</td>
+                <td>관리자</td>
+                <td>2024-12-01</td>
+              </tr>
+              <tr>
+                <td>259</td>
+                <td>[한국지식재산보호원] 지식재산 전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-11-25</td>
+              </tr>
+              <tr>
+                <td>258</td>
+                <td>[한국특허기술진흥원] 특허·기술 상용화 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-11-22</td>
+              </tr>
+              <tr>
+                <td>257</td>
+                <td>[특허청] 특허 관련 정책 변경 안내</td>
+                <td>관리자</td>
+                <td>2024-11-18</td>
+              </tr>
+              <tr>
+                <td>256</td>
+                <td>[한국지식재산보호원] 특허 관련 자료 제출 안내</td>
+                <td>관리자</td>
+                <td>2024-11-10</td>
+              </tr>
+              <tr>
+                <td>255</td>
+                <td>[한국지식재산보호원] 기술 창업 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-11-05</td>
+              </tr>
+              <tr>
+                <td>254</td>
+                <td>[한국지식재산보호원] 특허분쟁 대응전략 지원사업 2차 공고</td>
+                <td>관리자</td>
+                <td>2024-10-30</td>
+              </tr>
+              <tr>
+                <td>253</td>
+                <td>[한국지식재산보호원] 특허 정보 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-10-28</td>
+              </tr>
+              <tr>
+                <td>252</td>
+                <td>[한국특허기술진흥원] 특허 기술 사업화 지원 공고</td>
+                <td>관리자</td>
+                <td>2024-10-25</td>
+              </tr>
+              <tr>
+                <td>251</td>
+                <td>[한국지식재산보호원] 특허 창업 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-10-20</td>
+              </tr>
+              <tr>
+                <td>250</td>
+                <td>[한국지식재산보호원] 특허전략 수립 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-10-15</td>
+              </tr>
+              <tr>
+                <td>249</td>
+                <td>[한국지식재산보호원] K-브랜드분쟁 대응전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-10-10</td>
+              </tr>
+              <tr>
+                <td>248</td>
+                <td>[한국특허기술진흥원] 특허분쟁 대응전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-10-05</td>
+              </tr>
+              <tr>
+                <td>247</td>
+                <td>[특허청] 특허·기술 보호 관련 정책 안내</td>
+                <td>관리자</td>
+                <td>2024-10-01</td>
+              </tr>
+              <tr>
+                <td>246</td>
+                <td>[한국지식재산보호원] 특허 전략 수립 지원 공고</td>
+                <td>관리자</td>
+                <td>2024-09-25</td>
+              </tr>
+              <tr>
+                <td>245</td>
+                <td>[한국특허기술진흥원] 특허전략 수립 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-09-20</td>
+              </tr>
+              <tr>
+                <td>244</td>
+                <td>[한국지식재산보호원] 특허 사업화 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-09-15</td>
+              </tr>
+              <tr>
+                <td>243</td>
+                <td>[한국지식재산보호원] 특허 기술 상용화 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-09-10</td>
+              </tr>
+              <tr>
+                <td>242</td>
+                <td>[한국지식재산보호원] 특허분쟁 대응전략 지원사업 1차 공고</td>
+                <td>관리자</td>
+                <td>2024-09-05</td>
+              </tr>
+              <tr>
+                <td>241</td>
+                <td>[한국특허기술진흥원] 특허 관련 기술 지원 공고</td>
+                <td>관리자</td>
+                <td>2024-09-01</td>
+              </tr>
+              <tr>
+                <td>240</td>
+                <td>[한국지식재산보호원] 기술 창업 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-08-25</td>
+              </tr>
+              <tr>
+                <td>239</td>
+                <td>[한국지식재산보호원] K-브랜드분쟁 대응전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-08-20</td>
+              </tr>
+              <tr>
+                <td>238</td>
+                <td>[한국특허기술진흥원] 특허 보호 전략 수립 공고</td>
+                <td>관리자</td>
+                <td>2024-08-15</td>
+              </tr>
+              <tr>
+                <td>237</td>
+                <td>[특허청] 특허관련 정책 안내</td>
+                <td>관리자</td>
+                <td>2024-08-10</td>
+              </tr>
+              <tr>
+                <td>236</td>
+                <td>[한국지식재산보호원] 특허 창업 지원 공고</td>
+                <td>관리자</td>
+                <td>2024-08-05</td>
+              </tr>
+              <tr>
+                <td>235</td>
+                <td>[한국지식재산보호원] 특허 관련 자료 제출 안내</td>
+                <td>관리자</td>
+                <td>2024-08-01</td>
+              </tr>
+              <tr>
+                <td>234</td>
+                <td>[한국특허기술진흥원] 특허 보호 전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-07-25</td>
+              </tr>
+              <tr>
+                <td>233</td>
+                <td>[한국지식재산보호원] 특허분쟁 대응전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-07-20</td>
+              </tr>
+              <tr>
+                <td>232</td>
+                <td>[한국지식재산보호원] 지식재산 전략 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2024-07-15</td>
+              </tr>
+              <tr>
+                <td>231</td>
+                <td>[한국특허기술진흥원] 특허분쟁 대응전략 지원사업 1차 공고</td>
+                <td>관리자</td>
+                <td>2024-07-10</td>
+              </tr>
+              <tr>
+                <td>230</td>
+                <td>[특허청] 특허 창업 관련 정책 안내</td>
+                <td>관리자</td>
+                <td>2024-07-05</td>
+              </tr>
+          <tr>
+                <td>229</td>
+                <td>제19회 국제특허정보박람회(PATINEX 2023) 참여기업 모집</td>
+                <td>관리자</td>
+                <td>2023-07-10</td>
+              </tr>
+              <tr>
+                <td>228</td>
+                <td>[한국특허기술진흥원] 한국특허기술진흥원 원장 공모</td>
+                <td>관리자</td>
+                <td>2023-03-21</td>
+              </tr>
+              <tr>
+                <td>227</td>
+                <td>2023 지식재산 데이터 활용 창업 경진대회 모집 공고</td>
+                <td>관리자</td>
+                <td>2023-03-14</td>
+              </tr>
+              <tr>
+                <td>226</td>
+                <td>2023년 지식재산서비스 성장지원 사업(BM·시범서비스 개발 단계) 수행기관 모집 공고</td>
+                <td>관리자</td>
+                <td>2023-02-06</td>
+              </tr>
+              <tr>
+                <td>225</td>
+                <td>2023년 비대면 스타트업 육성사업 창업기업 모집공고</td>
+                <td>관리자</td>
+                <td>2023-02-01</td>
+              </tr>
+              <tr>
+                <td>224</td>
+                <td>2022년 한국특허정보원 홈페이지 고객 만족도조사 안내</td>
+                <td>관리자</td>
+                <td>2023-01-16</td>
+              </tr>
+              <tr>
+                <td>223</td>
+                <td>[한국발명진흥회] 제58회 발명의 날 포상 및 올해의 발명왕 선발 안내</td>
+                <td>관리자</td>
+                <td>2023-01-05</td>
+              </tr>
+              <tr>
+                <td>222</td>
+                <td>개인정보 목적 외 이용 및 제3자 제공 내역(2022. 12. 9.) 게재</td>
+                <td>관리자</td>
+                <td>2023-01-04</td>
+              </tr>
+              <tr>
+                <td>221</td>
+                <td>한국특허정보원 개인정보 처리방침 변경 안내</td>
+                <td>관리자</td>
+                <td>2022-12-16</td>
+              </tr>
+              <tr>
+                <td>220</td>
+                <td>KIPRIS 모바일 홈페이지 개편 이벤트 실시</td>
+                <td>관리자</td>
+                <td>2022-11-29</td>
+              </tr>
+          <tr>
+                <td>219</td>
+                <td>[창업진흥원] 창업 지원사업 평가위원회 위원 후보단 모집관련 안내</td>
+                <td>관리자</td>
+                <td>2022-11-10</td>
+              </tr>
+              <tr>
+                <td>218</td>
+                <td>MZ세대와 함께하는 조직문화 개선 아이디어 모집(포상 50만원)</td>
+                <td>관리자</td>
+                <td>2022-10-28</td>
+              </tr>
+              <tr>
+                <td>217</td>
+                <td>한국특허정보원 원장 공모</td>
+                <td>관리자</td>
+                <td>2022-10-05</td>
+              </tr>
+              <tr>
+                <td>216</td>
+                <td>한국특허정보원 상임이사(본부장) 공모</td>
+                <td>관리자</td>
+                <td>2022-09-15</td>
+              </tr>
+              <tr>
+                <td>215</td>
+                <td>2022년 국정목표</td>
+                <td>관리자</td>
+                <td>2022-09-02</td>
+              </tr>
+              <tr>
+                <td>214</td>
+                <td>제18회 국제특허정보박람회(PATINEX 2022) 개최 안내</td>
+                <td>관리자</td>
+                <td>2022-08-23</td>
+              </tr>
+              <tr>
+                <td>213</td>
+                <td>[국민권익위원회] 2022 국민참여 청렴콘텐츠 공모전</td>
+                <td>관리자</td>
+                <td>2022-07-14</td>
+              </tr>
+              <tr>
+                <td>212</td>
+                <td>[한국발명진흥회] 2022「우수 상표·디자인권 공모전」출품 신청 안내</td>
+                <td>관리자</td>
+                <td>2022-07-14</td>
+              </tr>
+              <tr>
+                <td>211</td>
+                <td>[개인정보보호위원회] 2022 개인정보보호 인식주간 캠페인 참여</td>
+                <td>관리자</td>
+                <td>2022-06-30</td>
+              </tr>
+              <tr>
+                <td>210</td>
+                <td>[한국지식재산보호원] 2022년 국제 지재권분쟁 지원사업 공고</td>
+                <td>관리자</td>
+                <td>2022-05-25</td>
+              </tr>
+              <tr>
+                <td>209</td>
+                <td>2022 지식재산 정보 활용 창업 경진대회 모집 공고</td>
+                <td>관리자</td>
+                <td>2022-03-15</td>
+              </tr>
+              <tr>
+                <td>208</td>
+                <td>[충남대학교] 지식재산 전문인력 양성사업단 연구교수 채용 공고</td>
+                <td>관리자</td>
+                <td>2022-03-14</td>
+              </tr>
+              <tr>
+                <td>207</td>
+                <td>[특허청]「특허심판원 심판장(기계분야)」(경력개방형 직위) 공개모집</td>
+                <td>관리자</td>
+                <td>2022-03-07</td>
+              </tr>
+              <tr>
+                <td>206</td>
+                <td>2022년 비대면 스타트업 육성사업 창업기업 모집공고</td>
+                <td>관리자</td>
+                <td>2022-02-10</td>
+              </tr>
+              <tr>
+                <td>205</td>
+                <td>개인정보 목적 외 이용 및 제3자 제공 내역(2021. 12. 23.) 게재</td>
+                <td>관리자</td>
+                <td>2022-01-20</td>
+              </tr>
+              <tr>
+                <td>204</td>
+                <td>[제57회 발명의 날] 포상 및 올해의 발명왕 신청</td>
+                <td>관리자</td>
+                <td>2022-01-10</td>
+              </tr>
+              <tr>
+                <td>203</td>
+                <td>[한국방송통신전파진흥원] 5G 특화망 새 이름 공모전 안내</td>
+                <td>관리자</td>
+                <td>2021-12-02</td>
+              </tr>
+              <tr>
+                <td>202</td>
+                <td>[국가공무원인재개발원] 「On세상 지식 탐구생활, 안녕! 가치 들어요」 11월 공개강좌 계획 안내</td>
+                <td>관리자</td>
+                <td>2021-11-10</td>
+              </tr>
+              <tr>
+                <td>201</td>
+                <td>[특허청]「특허심판원 심판장 (상표분야)」공개모집</td>
+                <td>관리자</td>
+                <td>2021-11-03</td>
+              </tr>
+              <tr>
+                <td>200</td>
+                <td>[한국문화정보원] 2021년 공공저작물 이용활성화 시상식 및 포럼 개최 안내</td>
+                <td>관리자</td>
+                <td>2021-11-02</td>
+              </tr>
+              <tr>
+                <td>199</td>
+                <td>[국립세종도서관] 학술지목차메일링서비스 이벤트 안내</td>
+                <td>관리자</td>
+                <td>2021-11-02</td>
+              </tr>
+              <tr>
+                <td>198</td>
+                <td>[국민권익위원회] 제1회 국민권익위원회 민원 데이터 분석 경진대회 안내</td>
+                <td>관리자</td>
+                <td>2021-10-28</td>
+              </tr>
+              <tr>
+                <td>197</td>
+                <td>[국립중앙의료원] 2021년 국립중앙의료원 갑질예방 및 청렴 아이디어 공모전 안내</td>
+                <td>관리자</td>
+                <td>2021-10-25</td>
+              </tr>
+              <tr>
+                <td>196</td>
+                <td>한국특허정보원 개인정보 처리방침 변경 안내</td>
+                <td>관리자</td>
+                <td>2021-10-21</td>
+              </tr>
+              <tr>
+                <td>195</td>
+                <td>[충남대학교] SDGs기반 ESG 추진 협의체 발대식 및 포럼 개최 안내</td>
+                <td>관리자</td>
+                <td>2021-10-21</td>
+              </tr>
+              <tr>
+                <td>194</td>
+                <td>[특허청] 2022년 지식재산(IP) 서비스 연구개발 과제 수요조사</td>
+                <td>관리자</td>
+                <td>2021-10-18</td>
+              </tr>
+              <tr>
+                <td>193</td>
+                <td>[한국우편사업진흥원] 국민과 함께하는「2021 POSA 갑질예방·근절 퀴즈 및 아이디어 공모전」안내</td>
+                <td>관리자</td>
+                <td>2021-10-18</td>
+              </tr>
+              <tr>
+                <td>192</td>
+                <td>[특허정보진흥센터] 특허정보진흥센터 상임이사(본부장) 공모</td>
+                <td>관리자</td>
+                <td>2021-10-14</td>
+              </tr>
+              <tr>
+                <td>191</td>
+                <td>[국가지식재산위원회] 국가지식재산위원회 10주년 대국민 보고회</td>
+                <td>관리자</td>
+                <td>2021-10-05</td>
+              </tr>
+              <tr>
+                <td>190</td>
+                <td>[개인정보보호위원회] 내정보 지킴이 캠페인</td>
+                <td>관리자</td>
+                <td>2021-10-05</td>
+              </tr>
+              <tr>
+                <td>189</td>
+                <td>[특허청] 특허청 일반직공무원 6급(심사관) 경력경쟁채용시험 공고</td>
+                <td>관리자</td>
+                <td>2021-09-17</td>
+              </tr>
+              <tr>
+                <td>188</td>
+                <td>[한국장애인고용공단]「2021 중증장애인 고용확대 아이디어 및 '코로나 대응' 우수사례 공모전」</td>
+                <td>관리자</td>
+                <td>2021-09-17</td>
+              </tr>
+              <tr>
+                <td>187</td>
+                <td>[한국데이터산업진흥원] 2021년 데이터 활용 아이디어 & 시각화 경진대회</td>
+                <td>관리자</td>
+                <td>2021-09-15</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pagination">
+            <i class="fa-solid fa-angles-left"></i>
+            <i class="fa-solid fa-angle-left"></i>
+            <ol id="numbers">
+            </ol>
+            <i class="fa-solid fa-angle-right"></i>
+            <i class="fa-solid fa-angles-right"></i>
+          </div>
+          <div class="managers">
+            <div class="manager">
+              <span>담당부서</span>
+              <span>경영기획실</span>
+            </div>
+            <div class="manager">
+              <span>담당자</span>
+              <span>황의원</span>
+            </div>
+            <div class="manager">
+              <span>연락처</span>
+              <span>02-6915-1462</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- footer -->
+<footer>
+  <div class="footer_inner">
+    <div class="text_wrap">
+      <div class="a_wrap">
+        <a href="#none" title="새창이동">개인정보 처리방침</a>
+        <a href="#none" title="새창이동">무단 E-mail 수집거부</a>
+      </div>
+      <p><span>[대전] (35220) 대전광역시 서구 청사로 136, 10층 (월평동, 대전무역회관)</span><span>Tel.042-479-5601 Fax.042-479-5602</span></p>
+      <p><span>[서울] (06133) 서울특별시 강남구 테헤란로 131, 7층 (역삼동, 한국지식재산센터)</span><span>Tel.02-6915-1400 Fax.02-6915-1409</span>
+      </p>
+      <p>COPYRIGHT© KIPI ALL RIGHTS RESERVED</p>
+    </div>
+    <div class="img_wrap">
+      <div class="img_top">
+        <img src="../../image/footer_link.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" title="국가 공인 인증기관 : 웹와치">
+      </div>
+      <div class="img_bottom">
+        <div class="sns">
+          <a href="https://youtube.com/@dynamickipi?si=h1M3UxkaYWBiQHqz" target="_blank" title="새창이동">
+            <img src="../../image/sns01.png" alt="youtube"> <span>유튜브</span>
+          </a>
+        </div>
+        <div class="sns">
+          <a href="http://www.facebook.com/dynamickipi" target="_blank" title="새창이동">
+            <img src="../../image/sns02.png" alt="Facebook"> <span>페이스북</span>
+          </a>
+        </div>
+        <div class="sns">
+          <a href="https://x.com/dynamic_kipi" target="_blank" title="새창이동">
+            <img src="../../image/sns03.png" alt="X"> <span>엑스</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Link Swiper's js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- js -->
+  <script src="js/custom.js"></script>
+</body>
+</html>
